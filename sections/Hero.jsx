@@ -4,6 +4,7 @@ import styles from "../styles"
 import {slideIn, staggerContainer,textVariant}
 from "../utils/motion"
 import Image from "next/image";
+import Link from "next/link";
 
 
 const Hero = () => (
@@ -38,6 +39,18 @@ const Hero = () => (
               width={500}
               height={500}
               className="w-full sm:h-[500px] h-[350px] object-cover rounded-t1-[140px] z-10 relative"/>
+              <Link href="#explore">
+                <div className="w-full flex justify-end sm:-mt-[70px] -mt-[50px] pr-[40px] relative z-10">
+                  <Image 
+                    src="/stamp.png"
+                    alt="stamp"
+                    height="300"
+                    width="300" 
+                    className="sm:w-[155px] w-[100px] sm:h[155px] h-[100px] object-contain"/>
+                </div>
+              </Link>
+
+
           </div>
 
       </motion.div>
