@@ -471,12 +471,27 @@ video {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
+.absolute {
+  position: absolute;
+}
+.relative {
+  position: relative;
+}
+.inset-0 {
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
 .mx-\[6px\] {
   margin-left: 6px;
   margin-right: 6px;
 }
 .flex {
   display: flex;
+}
+.hidden {
+  display: none;
 }
 .h-\[38px\] {
   height: 38px;
@@ -489,6 +504,9 @@ video {
 }
 .w-\[60px\] {
   width: 60px;
+}
+.w-\[50\%\] {
+  width: 50%;
 }
 .items-start {
   align-items: flex-start;
@@ -523,6 +541,10 @@ video {
 .py-12 {
   padding-top: 3rem;
   padding-bottom: 3rem;
+}
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 .pt-12 {
   padding-top: 3rem;
